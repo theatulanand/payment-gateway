@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats</title>
+    <style>
+        h1{
+            text-align: center;
+            color: green;
+            margin-top: 10%;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transaction Success</h1>
+    <div><button onclick="myfunc()">Make Another Payment</button></div>
+</body>
+<script>
+    function myfunc(){
+        window.location.href = "/paymentGatway.html"
+    }
+</script>
+</html>
